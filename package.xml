@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <name>gazebo_ycb</name>
+  <version>0.0.1</version>
+  <description>The gazebo_ycb package</description>
+  <author email="mvieth@techfak.uni-bielefeld.de">Markus Vieth</author>
+  <maintainer email="mvieth@techfak.uni-bielefeld.de">Markus Vieth</maintainer>
+  <license>MIT</license>
+  <url type="website">https://github.com/CentralLabFacilities/gazebo_ycb</url>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
