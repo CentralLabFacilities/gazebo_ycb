@@ -17,3 +17,7 @@ catkin_package(
 install(DIRECTORY models
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
+
+catkin_add_env_hooks(${PROJECT_NAME} 
+  SHELLS sh 
+  DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/env-hooks)
