@@ -16,11 +16,17 @@
         <pose>0 0 0.095 0 0 0</pose>
       </inertial>
       <collision name="collision">
-        <pose>0 0 0.095 0 0 0</pose>
+        <!--<pose>0 0 0.095 0 0 0</pose>
         <geometry>
           <box>
             <size>0.058 0.095 0.190</size>
           </box>
+        </geometry>-->
+        <pose>0.025 -0.005 0 0 0 -1.15</pose>
+        <geometry>
+          <mesh>
+            <uri>model://mustard_bottle/meshes/nontextured.stl</uri>
+          </mesh>
         </geometry>
       </collision>
       <visual name="visual">

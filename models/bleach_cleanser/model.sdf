@@ -15,11 +15,17 @@
         <pose>0 0 0.125 0 0 0</pose>
       </inertial>
       <collision name="collision">
-        <pose>0 0 0.125 0 0 0</pose>
+        <!--<pose>0 0 0.125 0 0 0</pose>
         <geometry>
           <box>
             <size>0.098 0.065 0.250</size>
           </box>
+        </geometry>-->
+        <pose>0.02 -0.012 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://bleach_cleanser/meshes/nontextured.stl</uri>
+          </mesh>
         </geometry>
       </collision>
       <visual name="visual">
