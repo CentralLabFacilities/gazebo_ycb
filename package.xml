@@ -2,7 +2,7 @@
 <package>
   <name>gazebo_ycb</name>
   <version>0.0.1</version>
-  <description>The gazebo_ycb package</description>
+  <description>This package contains models of the YCB object set for gazebo.</description>
   <author email="mvieth@techfak.uni-bielefeld.de">Markus Vieth</author>
   <maintainer email="mvieth@techfak.uni-bielefeld.de">Markus Vieth</maintainer>
   <license>MIT</license>
