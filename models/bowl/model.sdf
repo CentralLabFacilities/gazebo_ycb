@@ -15,21 +15,15 @@
         <pose>0 0 0.125 0 0 0</pose>
       </inertial>
       <collision name="collision">
-        <!--<pose>0 0 0.125 0 0 0</pose>
-        <geometry>
-          <box>
-            <size>0.098 0.065 0.250</size>
-          </box>
-        </geometry>-->
-        <pose>0.02 -0.012 0 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://bowl/meshes/nontextured.stl</uri>
+            <uri>model://bowl/meshes/collision.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
-        <pose>0.02 -0.012 0 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
             <uri>model://bowl/meshes/textured.dae</uri>
