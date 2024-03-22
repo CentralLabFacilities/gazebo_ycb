@@ -17,7 +17,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://apple/meshes/nontextured.stl</uri>
+            <uri>model://apple/meshes/collision.dae</uri>
           </mesh>
         </geometry>
       </collision>

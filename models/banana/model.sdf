@@ -17,7 +17,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://banana/meshes/nontextured.stl</uri>
+            <uri>model://banana/meshes/collision.dae</uri>
           </mesh>
         </geometry>
       </collision>
