@@ -25,7 +25,7 @@
         <pose>0.025 -0.005 0 0 0 -1.15</pose>
         <geometry>
           <mesh>
-            <uri>model://mustard_bottle/meshes/nontextured.stl</uri>
+            <uri>model://mustard_bottle/meshes/collision.dae</uri>
           </mesh>
         </geometry>
       </collision>

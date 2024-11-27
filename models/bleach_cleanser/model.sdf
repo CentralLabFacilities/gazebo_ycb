@@ -24,7 +24,7 @@
         <pose>0.02 -0.012 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://bleach_cleanser/meshes/nontextured.stl</uri>
+            <uri>model://bleach_cleanser/meshes/collision.dae</uri>
           </mesh>
         </geometry>
       </collision>
